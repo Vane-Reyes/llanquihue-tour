@@ -19,7 +19,7 @@ Sistema para cargar y filtrar tours de Llanquihue Tour desde un archivo de texto
 3. Ejecutar la clase `Main` ubicada en `src/ui`.
 
 ## Repositorio GitHub
-https://github.com/Vane-rys/llanquihue-tour
+https://github.com/Vane-Reyes/llanquihue-tour
 
 ## Fecha de entrega
 16/11/2026
