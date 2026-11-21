@@ -1,8 +1,9 @@
 # LlanquihueTourApp
 
 ## Autor
-Vanessa Catalina Reyes González
-Sección 004A — Carrera Analista Programador Computacional — Sede Virtual
+- Vanessa Catalina Reyes González
+- Sección 004A — Carrera Analista Programador Computacional
+- Sede Virtual
 
 ## Descripción general
 Sistema para cargar y filtrar tours de Llanquihue Tour desde un archivo de texto.
