@@ -1,0 +1,5 @@
+Isla Huar;Lacustre;15000
+Ruta de los Volcanes;Aventura;25000
+Degustacion de Quesillos;Gastronomico;12000
+Cruce del Lago Llanquihue;Lacustre;30000
+Sendero Petrohue;Cultural;18000
