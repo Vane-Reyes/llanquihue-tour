@@ -1,5 +1,6 @@
 package data;
 
+import model.Lugar;
 import model.Tour;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -14,13 +15,27 @@ public class GestorDatos {
         try (BufferedReader lector = new BufferedReader(new FileReader(ruta))) {
             String linea;
             while ((linea = lector.readLine()) != null) {
-                // Separa cada línea en sus tres campos usando ";"
-                String[] datos = linea.split(";");
-                String nombre = datos[0];
-                String tipo = datos[1];
-                int precio = Integer.parseInt(datos[2]);// convierte texto a número
-                // Crea el objeto Tour y lo agrega a la colección
-                tours.add(new Tour(nombre, tipo, precio));
+
+                try {
+
+                    // Separa cada línea en sus tres campos usando ";"
+                    String[] datos = linea.split(";");
+                    String nombre = datos[0];
+                    String tipo = datos[1];
+                    int precio = Integer.parseInt(datos[2]);// convierte texto a número
+                    if (precio <= 0) throw new IllegalArgumentException();
+                    String comuna = datos[3];
+                    String coordenadas = datos[4];
+                    String referencia = datos[5];
+
+
+                    // Crea el objeto Tour y lo agrega a la colección
+                    tours.add(new Tour(nombre, tipo, precio, new Lugar(comuna, coordenadas, referencia)));
+                }catch (IllegalArgumentException e){
+                    System.out.println("Línea con datos inválidos, se omite: " + linea);
+
+                }
+
             }
 
         } catch (IOException e) {
@@ -29,4 +44,3 @@ public class GestorDatos {
         return tours;
     }
 }
-

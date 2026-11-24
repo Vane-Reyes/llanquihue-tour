@@ -1,5 +1,5 @@
-Isla Huar;Lacustre;15000
-Ruta de los Volcanes;Aventura;25000
-Degustacion de Quesillos;Gastronomico;12000
-Cruce del Lago Llanquihue;Lacustre;30000
-Sendero Petrohue;Cultural;18000
+Isla Huar;Lacustre;15000;Calbuco;-41.47,-72.95;Acceso en lancha desde Calbuco
+Ruta de los Volcanes;Aventura;25000;Puerto Varas;-41.10,-72.70;Salida desde el centro de Puerto Varas
+Degustacion de Quesillos;Gastronomico;12000;Frutillar;-41.12,-73.02;Mercado local de Frutillar
+Cruce del Lago Llanquihue;Lacustre;30000;Puerto Octay;-41.00,-72.87;Embarcadero de Puerto Octay
+Sendero Petrohue;Cultural;18000;Puerto Varas;-41.13,-72.39;Entrada Parque Nacional Vicente Pérez Rosales
