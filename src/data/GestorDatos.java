@@ -32,7 +32,7 @@ public class GestorDatos {
                     // Crea el objeto Tour y lo agrega a la colección
                     tours.add(new Tour(nombre, tipo, precio, new Lugar(comuna, coordenadas, referencia)));
                 }catch (IllegalArgumentException e){
-                    System.out.println("Línea con datos inválidos, se omite: " + linea);
+                    System.out.println("\nLínea con datos inválidos, se omite: " + linea);
 
                 }
 
